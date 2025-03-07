@@ -6437,19 +6437,19 @@ class IOS:
 		self.driver.swipe(500, 500, 1000, 500, None)		
 		sleep(5)
 	
-		#Enter the AT&T EPTT text into the search field
-		self.driver.find_element_by_xpath(".//*[@name='SpotlightSearchField']").send_keys("AT&T EPTT")
-		print("Device: Entered AT&T EPTT text into the search field")
+		#Enter the EPTT text into the search field
+		self.driver.find_element_by_xpath(".//*[@name='SpotlightSearchField']").send_keys("EPTT")
+		print("Device: Entered EPTT text into the search field")
 		sleep(2)
 		
 		#Click on the Search option
 		self.driver.find_element_by_xpath(".//*[@name='Search']").click()
-		print("Device: Entered AT&T EPTT text into the search field")	
+		print("Device: Entered EPTT text into the search field")	
 		sleep(2)
 		
-		#Click on AT&T EPTT App found on the search screen
-		self.driver.find_element_by_xpath(".//*[@label='AT&T EPTT']").click()
-		print("Device: Opened AT&T EPTT App")	
+		#Click on EPTT App found on the search screen
+		self.driver.find_element_by_xpath(".//*[@label='EPTT']").click()
+		print("Device: Opened EPTT App")	
 		sleep(2)
 		
 		for i in range (0, 2):
@@ -6720,7 +6720,7 @@ class IOS:
 		# self.driver.swipe(500, 500, 1000, 500, None)		
 		# sleep(5)
 	
-		# #Enter the AT&T EPTT text into the search field
+		# #Enter the EPTT text into the search field
 		# self.driver.find_element_by_xpath(".//*[@name='SpotlightSearchField']").send_keys("Settings")
 		# print("Device: Entered Settings text into the search field")
 		# sleep(2)
@@ -6759,19 +6759,19 @@ class IOS:
 		self.driver.swipe(500, 500, 1000, 500, None)		
 		sleep(5)
 	
-		#Enter the AT&T EPTT text into the search field
-		self.driver.find_element_by_xpath(".//*[@name='SpotlightSearchField']").send_keys("AT&T EPTT")
-		print("Device: Entered AT&T EPTT text into the search field")
+		#Enter the EPTT text into the search field
+		self.driver.find_element_by_xpath(".//*[@name='SpotlightSearchField']").send_keys("EPTT")
+		print("Device: Entered EPTT text into the search field")
 		sleep(2)
 		
 		#Click on the Search option
 		self.driver.find_element_by_xpath(".//*[@name='Search']").click()
-		print("Device: Entered AT&T EPTT text into the search field")	
+		print("Device: Entered EPTT text into the search field")	
 		sleep(2)
 		
-		#Click on AT&T EPTT App found on the search screen
-		self.driver.find_element_by_xpath(".//*[@label='AT&T EPTT']").click()
-		print("Device: Opened AT&T EPTT App")	
+		#Click on EPTT App found on the search screen
+		self.driver.find_element_by_xpath(".//*[@label='EPTT']").click()
+		print("Device: Opened EPTT App")	
 		sleep(2)
 		
 		for i in range (0, 2):
@@ -6813,7 +6813,7 @@ class IOS:
 		# self.driver.swipe(500, 500, 1000, 500, None)		
 		# sleep(5)
 	
-		# #Enter the AT&T EPTT text into the search field
+		# #Enter the EPTT text into the search field
 		# self.driver.find_element_by_xpath(".//*[@name='SpotlightSearchField']").send_keys("Settings")
 		# print("Device: Entered Settings text into the search field")
 		# sleep(2)
